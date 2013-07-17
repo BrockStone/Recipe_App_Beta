@@ -1,0 +1,50 @@
+body {
+	width: 100%;
+	background: url(images/BG.jpg) fixed;
+	text-align:center;
+}
+
+.header{
+	background: rgba(30,30,30,0.7);
+	color: #303030;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 95px;
+	position: fixed;
+	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+	
+}
+
+.header h1{
+	background: url(images/logo.png) no-repeat;
+}
+
+
+
+.header #assignment{
+	float: right;
+	margin-right: 25px;
+	height: 20px;
+	/*line-height: 85px;*/
+	margin-top: -65px;
+	font-family: 'Didact Gothic', sans-serif;
+}	
+
+#Main{
+	display: block;
+	width: 600;
+	height: 1000;
+	margin: 0 auto;
+	margin-top: 205px;
+	
+}	
+	
+#slogan{
+	font-family: 'Oregano', cursive;	
+	font-size: 3em;
+	text-align: center;
+}
+	
